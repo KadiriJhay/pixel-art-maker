@@ -72,7 +72,7 @@ input[type=number], #colorPicker {
     border-radius: 3px;
 }
 
-@media screen and (max-width: 790px){
+@media screen and (max-width: 800px){
     body{
         width: 100%;
         margin-bottom: 20px;
