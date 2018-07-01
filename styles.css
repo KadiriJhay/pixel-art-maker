@@ -17,15 +17,14 @@ h2:first-of-type {
     margin-top: 0.5em;
 }
 
-.values{
-    display: flex;
-    flex-wrap: wrap;
+.container{
     padding-top: 15px;
     padding-bottom: 15px;
     background-color: rgb(15, 90, 151);
     border-radius: 10px;
     font-family: Raleway;
     color: #fff;
+    width: 100%;
 }
 
 input{
@@ -74,11 +73,21 @@ input[type=number], #colorPicker {
     border-radius: 3px;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 790px){
     body{
         margin-bottom: 20px;
     }
-    h1, .values, .results, table{
+    h1, .container, .result, table{
         width: 100%;
+    }
+}
+
+@media screen and (min-width: 791px){
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .grid-size, .color-picker{
+        width: 50%;
     }
 }
