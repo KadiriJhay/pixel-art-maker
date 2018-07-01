@@ -1,0 +1,81 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+    font-family: Raleway;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+.inputs{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(15, 90, 151);
+    border-radius: 10px;
+    font-family: Raleway;
+    color: #fff;
+    width: 100%;
+}
+
+input{
+    margin-bottom: 15px;
+}
+
+.size, .color{
+    margin-bottom: 25px;
+    color: #000;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.submit{
+    width: 170px;
+    border-radius: 5px;
+    color: #000;
+    background-color: #ccc;
+}
+
+.result{
+    font-size: 30px;
+}
+
+table,
+tr,
+td {
+    border: 1px solid #000;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number], #colorPicker {
+    width: 6em;
+    border-radius: 3px;
+}
+
+@media screen and (max-width: 790px){
+    body{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
