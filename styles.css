@@ -77,7 +77,7 @@ input[type=number], #colorPicker {
     body{
         margin-bottom: 20px;
     }
-    h1, .container, .result, table{
+    h1, .container, .result, {
         width: 100%;
     }
 }
