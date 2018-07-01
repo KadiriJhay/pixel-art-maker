@@ -18,6 +18,8 @@ h2:first-of-type {
 }
 
 .values{
+    display: flex;
+    flex-wrap: wrap;
     padding-top: 15px;
     padding-bottom: 15px;
     background-color: rgb(15, 90, 151);
