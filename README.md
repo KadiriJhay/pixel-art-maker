@@ -5,7 +5,7 @@ Pixel art maker allows you to build whatever you want by making grid cells and p
 
 ## Implementation
 In building this project, HTML, CSS and JQuery DOM Manipulation were implemented.
-The JQuery codes can be found in the [design.js](./design.js) file.
+The JQuery codes can be found in the [design.js](/design.js) file.
 
 ## How to Load
 * Download file from [here](https://github.com/KadiriJhay/pixel-art-maker/archive/master.zip)
