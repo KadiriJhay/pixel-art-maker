@@ -11,4 +11,4 @@ The JQuery codes can be found in the [designs.js](designs.js) file.
 * Download file from [here](https://github.com/KadiriJhay/pixel-art-maker/archive/master.zip)
 * Unzip and load `index.html`
 
-**You can simply load online from [here](kadirijhay.github.io/pixel-art-maker)**
+**You also load online from [here](kadirijhay.github.io/pixel-art-maker)**
